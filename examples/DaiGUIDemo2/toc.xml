@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Addon Author="daihenka" APIVersion="6" Name="DaiGUI Demo Addon 2" Description="Demonstrates some controls and use of the DaiGUI library">
+    <Script Name="DaiGUI-1.0.lua"/>
+    <Script Name="DemoAddon.lua"/>
+</Addon>
