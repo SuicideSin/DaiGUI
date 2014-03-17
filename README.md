@@ -34,6 +34,7 @@ local tWindow = DaiGUI:Create({
   },
 })
 
--- create the instance of the window.   This instance is the same type of object you would get from Apollo.LoadForm()
+-- create the instance of the window.   This instance is the same type of object 
+-- you would get from Apollo.LoadForm()
 local wndInstance = tWindow:GetInstance()
 ```
