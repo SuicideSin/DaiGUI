@@ -1,40 +1,20 @@
 DaiGUI
 ======
 
-Provides access to creating UI components from a Lua table in WildStar.
+DaiGUI is a WildStar addon library designed to allow addon developers the ability to create UI windows and components in-game with a Lua table.
 
-### Example Usage
-Create a window with a button
+DaiGUI offers the following features:
+* UI creation from a lua table
+* Inline event handlers
+* Nested children
+* Pixie support
+* Assign data to parent and children
 
-```lua
--- Get the package from Apollo's package system
-local DaiGUI = Apollo.GetPackage("DaiGUI-1.0").tPackage
+A utility, [Houston2DaiGUI](https://github.com/daihenka/Houston2DaiGUI), has been developed to convert Houston generated Form XML files into DaiGUI tables.  This allows the use of Houston to prototype designs and export to DaiGUI tables.
 
--- Create the window prototype object
-local tWindow = DaiGUI:Create({
-  Name = "MyExampleWindow",
-  Template      = "CRB_TooltipSimple",
-  UseTemplateBG = true,
-  Picture       = true,
-  Border        = true,
-  AnchorCenter  = { 500, 300 },
-  Children = {
-    {
-      WidgetType     = "PushButton",
-      Base           = "CRB_UIKitSprites:btn_square_LARGE_Red",
-      Text           = "Close Parent",
-      TextThemeColor = "ffffffff", -- sets normal, flyby, pressed, pressedflyby, disabled to a color
-      AnchorCenter   = { 150, 40 },
-      Events = {
-        ButtonSignal = function(self, wndHandler, wndControl)
-          wndControl:GetParent():Close()
-        end
-      },
-    },
-  },
-})
-
--- create the instance of the window.   This instance is the same type of object 
--- you would get from Apollo.LoadForm()
-local wndInstance = tWindow:GetInstance()
-```
+# Links
+* [[API]]
+* Widget Attributes and Events
+  * [[Base Attributes and Events]]
+  * [[Standard Widgets]]
+  * [[Game Specific Widgets]]
