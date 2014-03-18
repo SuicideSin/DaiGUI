@@ -12,6 +12,10 @@ DaiGUI offers the following features:
 
 A utility, [Houston2DaiGUI](https://github.com/daihenka/Houston2DaiGUI), has been developed to convert Houston generated Form XML files into DaiGUI tables.  This allows the use of Houston to prototype designs and export to DaiGUI tables.
 
+## Demos
+
+There are two demo addons in [examples/](examples/) that showcase various methods on the uses of DaiGUI.
+
 ## Links
 * [API](wiki/API)
 * Widget Attributes and Events
