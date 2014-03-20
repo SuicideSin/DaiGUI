@@ -17,8 +17,8 @@ A utility, [Houston2DaiGUI](https://github.com/daihenka/Houston2DaiGUI), has bee
 There are two demo addons in [examples/](examples/) that showcase various methods on the uses of DaiGUI.
 
 ## Links
-* [API](wiki/API)
+* [API](https://github.com/daihenka/DaiGUI/wiki/API)
 * Widget Attributes and Events
-  * [Base Attributes and Events](wiki/Base-Attributes-and-Events)
-  * [Standard Widgets](wiki/Standard-Widgets)
-  * [Game Specific Widgets](wiki/Game-Specific-Widgets)
+  * [Base Attributes and Events](https://github.com/daihenka/DaiGUI/wiki/Base-Attributes-and-Events)
+  * [Standard Widgets](https://github.com/daihenka/DaiGUI/wiki/Standard-Widgets)
+  * [Game Specific Widgets](https://github.com/daihenka/DaiGUI/wiki/Game-Specific-Widgets)
